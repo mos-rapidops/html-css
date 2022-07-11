@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+}
+body { 
+    min-height: 100vh; 
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+header{
+    display: flex;
+}
+.head-logo {
+    flex: 50%;
+    margin-left: 2%;
+    text-align: justify;
+}
+.head-logo > h2 {
+    padding: 0px;
+}
+.nav-links {
+    flex: 50%;
+    margin-top: 3%;
+    margin-left: 2%;
+}
+.nav-links > a {
+    color: grey;
+    text-decoration: none;
+    padding : 1%;
+    margin : 1%;
+}
+.carousel {
+    display: flex;
+    justify-content: space-between;
+}
+.carousel > img {
+    margin-left: 2%;
+}
+.carousel-child {
+    margin-left: 25%;
+}
+.big-pic-sect {
+    display: flex;
+    margin: 1%;
+    padding: 2%;
+}
+button {
+    background: #078f22;
+    background-image: -webkit-linear-gradient(top, #078f22, #098562);
+    background-image: -moz-linear-gradient(top, #078f22, #098562);
+    background-image: -ms-linear-gradient(top, #078f22, #098562);
+    background-image: -o-linear-gradient(top, #078f22, #098562);
+    background-image: linear-gradient(to bottom, #078f22, #098562);
+    -webkit-border-radius: 11;
+    -moz-border-radius: 11;
+    border-radius: 11px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 12px 10px 12px;
+    text-decoration: none;
+}
+
+.quote{
+    font-size: large;
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.section-1 {
+    display: flex;
+    justify-content: space-between;
+}
+.box-1-small {
+    margin : 1%;
+}
+.section-2 {
+    display: flex;
+    justify-content: space-between;
+}
+.box-2-small {
+    margin : 1%;
+}
+footer{
+    background-color: rgb(68, 65, 65);
+    color: white;
+    display: flex;
+}
+.below-footer {
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+    color: grey;
+    padding : 3px;
+    background-color: black;
+}
+.contact-detail-box{
+    flex-basis: 25%;
+    flex-grow: 0;
+}
+.quick-links-box {
+    flex-basis: 25%;
+    flex-grow: 0;
+}
+.from-the-blog-box {
+    flex-basis: 25%;
+    flex-grow: 0;
+}
+.newsletter-box{
+    flex-basis: 25%;
+    flex-grow: 0;
+}
